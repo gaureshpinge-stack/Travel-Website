@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Your Trip - WanderIndia</title>
+<style>
+/* WanderIndia Brand Styles */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Arial, sans-serif; color:#333; line-height:1.6; background:#f2f7fb; }
+
+/* Header & Nav */
+header { background:#12355b; position:sticky; top:0; z-index:10; }
+nav { max-width:1100px; margin:auto; display:flex; justify-content:space-between; align-items:center; padding:14px 20px; }
+.logo { color:#fff; font-size:22px; font-weight:bold; text-decoration:none; }
+.nav-link { color:#fff; text-decoration:none; font-weight:bold; font-size:15px; }
+.nav-link:hover { color:#ffb703; }
+
+/* Layout & Typography */
+main { max-width:1100px; margin:30px auto; padding:0 20px 50px; }
+h1 { color:#12355b; font-size:30px; margin-bottom:6px; text-align:center; }
+.sub { text-align:center; color:#666; margin-bottom:30px; font-size:15px; }
+
+/* Booking Grid */
+.booking-grid { display:grid; grid-template-columns:2fr 1fr; gap:25px; align-items:start; }
+.card { background:#fff; padding:25px; border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,.1); }
+.row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+label { display:block; font-weight:bold; font-size:13px; margin:12px 0 4px; color:#12355b; }
+input, select, textarea { width:100%; padding:10px; border:1px solid #bbb; border-radius:6px; font-size:14px; font-family:inherit; }
+input:focus, select:focus, textarea:focus { outline:2px solid #12355b; }
+
+/* Buttons */
+.btn { background:#ffb703; color:#222; padding:12px 24px; border-radius:30px; font-weight:bold; border:none; cursor:pointer; font-size:15px; display:inline-block; text-align:center; text-decoration:none; }
+.btn:hover { background:#fb8500; }
+.btn-submit { width:100%; margin-top:20px; }
+.btn-outline { background:transparent; border:2px solid #12355b; color:#12355b; padding:8px 18px; border-radius:20px; font-size:13px; }
+.btn-outline:hover { background:#12355b; color:#fff; }
+
+/* Cost Summary */
+.summary h3 { color:#12355b; margin-bottom:12px; font-size:18px; border-bottom:2px solid #e0f0ff; padding-bottom:8px; }
+.summary p { display:flex; justify-content:space-between; border-bottom:1px dashed #e2e8f0; padding:7px 0; font-size:14px; }
+.summary .total-row { font-size:18px; font-weight:bold; color:#c2410c; margin-top:10px; border-bottom:none; }
+.note { font-size:12px; color:#777; margin-top:10px; }
+
+/* Confirmation Voucher */
+#confirmBox { display:none; background:#fff; border:2px solid #2e9e55; border-radius:12px; padding:25px; margin-bottom:30px; }
+.voucher-header { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #2e9e55; padding-bottom:10px; margin-bottom:15px; }
+.voucher-tag { background:#e8f8ec; color:#1b7a3d; padding:4px 10px; border-radius:14px; font-weight:bold; font-size:13px; }
+.voucher-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:15px; font-size:14px; }
+.action-bar { display:flex; gap:12px; margin-top:20px; flex-wrap:wrap; }
+
+/* Past Bookings */
+#historySection { margin-top:40px; }
+.history-item { background:#fff; padding:14px 18px; border-radius:8px; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; box-shadow:0 2px 6px rgba(0,0,0,.08); font-size:14px; }
+.btn-del { color:#c2410c; background:none; border:none; cursor:pointer; font-size:13px; text-decoration:underline; }
+
+/* Footer */
+footer { background:#12355b; color:#fff; text-align:center; padding:20px; font-size:14px; margin-top:40px; }
+
+/* Print Stylesheet for Receipt PDF Download */
+@media print {
+  header, footer, .booking-grid, #historySection, .action-bar, .no-print { display:none !important; }
+  body { background:#fff; color:#000; }
+  main { max-width:100%; margin:0; padding:0; }
+  #confirmBox { display:block !important; border:2px solid #000; box-shadow:none; padding:20px; margin:0; }
+  .voucher-header { border-bottom:2px solid #000; }
+}
+
+@media(max-width:768px) {
+  .booking-grid { grid-template-columns:1fr; }
+  .row { grid-template-columns:1fr; }
+  .voucher-grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<header><nav>
+  <a href="index.html" class="logo">&#9992; WanderIndia</a>
+  <a href="index.html" class="nav-link">&larr; Back to Destinations</a>
+</nav></header>
+
+<main>
+  <h1>Book Your Adventure</h1>
+  <p class="sub">Pick your travel dates and options to view instant pricing and get your confirmed voucher.</p>
+
+  <!-- Confirmed Booking Voucher Card -->
+  <div id="confirmBox" role="region" aria-label="Booking Confirmation Voucher">
+    <div class="voucher-header">
+      <div>
+        <h2 style="color:#12355b;font-size:22px">&#9992; WanderIndia Travel Voucher</h2>
+        <span style="font-size:13px;color:#666">Official Booking & Receipt</span>
+      </div>
+      <span class="voucher-tag">&#10004; CONFIRMED</span>
+    </div>
+    <div id="voucherContent" class="voucher-grid"></div>
+    <div class="action-bar">
+      <button onclick="window.print()" class="btn">&#128438; Download / Print Receipt (PDF)</button>
+      <button onclick="bookAgain()" class="btn-outline">Book Another Trip</button>
+    </div>
+  </div>
+
+  <!-- Booking Form & Summary Grid -->
+  <div class="booking-grid" id="bookingArea">
+    <div class="card">
+      <form id="bookForm">
+        <label for="dest">Destination *</label>
+        <select id="dest" required></select>
+
+        <div class="row">
+          <div>
+            <label for="start">Start Date *</label>
+            <input type="date" id="start" required>
+          </div>
+          <div>
+            <label for="end">Return Date *</label>
+            <input type="date" id="end" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="adults">Adults (Age 12+) *</label>
+            <input type="number" id="adults" min="1" max="20" value="1" required>
+          </div>
+          <div>
+            <label for="kids">Children (Under 12, 50% off)</label>
+            <input type="number" id="kids" min="0" max="10" value="0">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="hotel">Hotel Upgrade</label>
+            <select id="hotel">
+              <option value="0">Hostel / Budget (Included)</option>
+              <option value="800">3-Star Hotel (+Rs.800/person/day)</option>
+              <option value="2000">5-Star Luxury (+Rs.2000/person/day)</option>
+            </select>
+          </div>
+          <div>
+            <label for="transport">Transport Option</label>
+            <select id="transport">
+              <option value="0">Train / Bus (Included)</option>
+              <option value="500">Private Cab (+Rs.500/person)</option>
+              <option value="1200">Self-Drive Rental (+Rs.1200/person)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" placeholder="John Doe" required>
+          </div>
+          <div>
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="10-digit number" required>
+          </div>
+        </div>
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" placeholder="john@example.com" required>
+
+        <label for="notes">Special Requests (Optional)</label>
+        <textarea id="notes" rows="2" placeholder="Vegetarian meals, pickup near station, etc."></textarea>
+
+        <button type="submit" class="btn btn-submit">Confirm Booking & Get Receipt</button>
+      </form>
+    </div>
+
+    <!-- Live Cost Estimate -->
+    <div class="card summary" aria-live="polite">
+      <h3>Cost Estimate</h3>
+      <img id="s-img" src="" alt="Destination preview" style="width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:12px;display:none">
+      <p><span>Destination:</span><strong id="s-dest">-</strong></p>
+      <p><span>Dates:</span><span id="s-dates">-</span></p>
+      <p><span>Duration:</span><span id="s-days">0 Days</span></p>
+      <p><span>Travellers:</span><span id="s-people">1 Adult</span></p>
+      <p><span>Base Package:</span><span id="s-pkg">Rs. 0</span></p>
+      <p><span>Hotel Upgrade:</span><span id="s-hotel">Rs. 0</span></p>
+      <p><span>Transport:</span><span id="s-trans">Rs. 0</span></p>
+      <p class="total-row"><span>Total:</span><span id="s-total">Rs. 0</span></p>
+      <p class="note">&#9432; Children pay 50% of the package rate. All taxes included.</p>
+    </div>
+  </div>
+
+  <!-- Past Bookings from LocalStorage -->
+  <section id="historySection">
+    <h2 style="color:#12355b;font-size:22px;margin-bottom:15px">Your Saved Bookings</h2>
+    <div id="myBookings"></div>
+  </section>
+</main>
+
+<footer><p>&copy; 2026 WanderIndia | College Project</p></footer>
+
+<script>
+// ---------- Destination Catalog ----------
+var places = [
+  {id:"goa", name:"Goa", price:1500},
+  {id:"manali", name:"Manali", price:1800},
+  {id:"jaipur", name:"Jaipur", price:1400},
+  {id:"kerala", name:"Kerala", price:2000},
+  {id:"ladakh", name:"Ladakh", price:2500},
+  {id:"rishikesh", name:"Rishikesh", price:1200}
+];
+
+function $(id) { return document.getElementById(id); }
+
+// Defensive programming: sanitize HTML to prevent DOM XSS
+function escapeHTML(str) {
+  return String(str).replace(/[&<>"']/g, function(m) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m];
+  });
+}
+
+// Populate destination options
+var opts = '<option value="">-- Select Destination --</option>';
+places.forEach(function(p) {
+  opts += '<option value="' + p.id + '">' + p.name + ' (Rs.' + p.price + '/person/day)</option>';
+});
+$("dest").innerHTML = opts;
+
+// Handle Destination Pre-selection via URL (?dest=goa)
+var urlParam = new URLSearchParams(window.location.search).get("dest");
+if (urlParam && places.some(function(p){ return p.id === urlParam; })) {
+  $("dest").value = urlParam;
+}
+
+// Date setup: Block past dates and link start/end dates
+var today = new Date();
+var yyyy = today.getFullYear();
+var mm = String(today.getMonth() + 1).padStart(2, "0");
+var dd = String(today.getDate()).padStart(2, "0");
+var todayStr = yyyy + "-" + mm + "-" + dd;
+
+$("start").min = todayStr;
+$("start").value = todayStr;
+
+// Default end date is 3 days from today
+var defaultEnd = new Date(today);
+defaultEnd.setDate(defaultEnd.getDate() + 3);
+var endStr = defaultEnd.getFullYear() + "-" + String(defaultEnd.getMonth() + 1).padStart(2, "0") + "-" + String(defaultEnd.getDate()).padStart(2, "0");
+$("end").min = todayStr;
+$("end").value = endStr;
+
+// When Start Date changes, adjust minimum End Date
+$("start").addEventListener("change", function() {
+  $("end").min = this.value;
+  if ($("end").value <= this.value) {
+    var next = new Date(this.value);
+    next.setDate(next.getDate() + 1);
+    $("end").value = next.toISOString().split("T")[0];
+  }
+  update();
+});
+
+// Dynamic Cost Calculation
+function calc() {
+  var p = places.filter(function(x){ return x.id === $("dest").value; })[0];
+  var startVal = $("start").value, endVal = $("end").value;
+  var days = 1;
+  if (startVal && endVal) {
+    var diffMs = new Date(endVal) - new Date(startVal);
+    days = Math.max(1, Math.round(diffMs / (1000 * 60 * 60 * 24)));
+  }
+  var adults = Math.max(1, +$("adults").value || 1);
+  var kids = Math.max(0, +$("kids").value || 0);
+  var travellers = adults + kids * 0.5;
+  var pkg = p ? p.price * days * travellers : 0;
+  var hotel = +$("hotel").value * days * travellers;
+  var trans = +$("transport").value * travellers;
+  return { p:p, start:startVal, end:endVal, days:days, adults:adults, kids:kids, pkg:pkg, hotel:hotel, trans:trans, total:pkg+hotel+trans };
+}
+
+function update() {
+  var c = calc();
+  if (c.p) {
+    $("s-img").src = "images/" + c.p.id + ".jpg";
+    $("s-img").style.display = "block";
+  } else {
+    $("s-img").style.display = "none";
+  }
+  $("s-dest").textContent = c.p ? c.p.name : "--";
+  $("s-dates").textContent = (c.start && c.end) ? (c.start + " to " + c.end) : "--";
+  $("s-days").textContent = c.days + (c.days === 1 ? " Day" : " Days");
+  $("s-people").textContent = c.adults + " Adult(s), " + c.kids + " Child(ren)";
+  $("s-pkg").textContent = "Rs. " + Math.round(c.pkg);
+  $("s-hotel").textContent = "Rs. " + Math.round(c.hotel);
+  $("s-trans").textContent = "Rs. " + Math.round(c.trans);
+  $("s-total").textContent = "Rs. " + Math.round(c.total);
+}
+
+["dest","start","end","adults","kids","hotel","transport"].forEach(function(id){
+  $(id).addEventListener("input", update);
+});
+update();
+
+// LocalStorage Persistence for Bookings
+function loadBookings() {
+  try { return JSON.parse(localStorage.getItem("wi_bookings")) || []; }
+  catch(e) { return []; }
+}
+function saveBookings(arr) {
+  localStorage.setItem("wi_bookings", JSON.stringify(arr));
+}
+
+function renderHistory() {
+  var list = loadBookings();
+  var box = $("myBookings");
+  if (!list.length) {
+    box.innerHTML = '<p style="color:#777;font-size:14px">No bookings saved yet.</p>';
+    return;
+  }
+  var html = "";
+  list.forEach(function(b, idx) {
+    html += '<div class="history-item">' +
+      '<div><strong>' + escapeHTML(b.id) + '</strong> &bull; ' + escapeHTML(b.dest) +
+      ' &bull; ' + escapeHTML(b.start) + ' to ' + escapeHTML(b.end) + ' (' + b.days + ' days)' +
+      ' &bull; <strong>Rs.' + b.total + '</strong></div>' +
+      '<button class="btn-del" onclick="deleteBooking(' + idx + ')">Cancel</button>' +
+    '</div>';
+  });
+  box.innerHTML = html;
+}
+
+function deleteBooking(idx) {
+  if (confirm("Cancel this booking?")) {
+    var list = loadBookings();
+    list.splice(idx, 1);
+    saveBookings(list);
+    renderHistory();
+  }
+}
+
+// Form Submission -> Render Receipt Voucher
+$("bookForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  var c = calc();
+  if (!c.p) { alert("Please select a destination."); $("dest").focus(); return; }
+
+  var b = {
+    id: "WI-" + Math.floor(1000 + Math.random() * 9000),
+    name: $("name").value.trim(),
+    phone: $("phone").value.trim(),
+    email: $("email").value.trim(),
+    dest: c.p.name,
+    start: c.start,
+    end: c.end,
+    days: c.days,
+    adults: c.adults,
+    kids: c.kids,
+    hotel: $("hotel").options[$("hotel").selectedIndex].text,
+    transport: $("transport").options[$("transport").selectedIndex].text,
+    notes: $("notes").value.trim() || "None",
+    total: Math.round(c.total),
+    date: new Date().toLocaleDateString()
+  };
+
+  // Save to persistent storage
+  var list = loadBookings();
+  list.unshift(b);
+  saveBookings(list);
+  renderHistory();
+
+  // Populate Printable Voucher Card
+  $("voucherContent").innerHTML =
+    '<div><p><strong>Booking ID:</strong> ' + escapeHTML(b.id) + '</p>' +
+    '<p><strong>Traveller Name:</strong> ' + escapeHTML(b.name) + '</p>' +
+    '<p><strong>Contact:</strong> ' + escapeHTML(b.phone) + ' | ' + escapeHTML(b.email) + '</p>' +
+    '<p><strong>Booking Date:</strong> ' + escapeHTML(b.date) + '</p></div>' +
+    '<div><p><strong>Destination:</strong> ' + escapeHTML(b.dest) + ' (' + b.days + ' Days)</p>' +
+    '<p><strong>Travel Dates:</strong> ' + escapeHTML(b.start) + ' to ' + escapeHTML(b.end) + '</p>' +
+    '<p><strong>Party Size:</strong> ' + b.adults + ' Adult(s), ' + b.kids + ' Child(ren)</p>' +
+    '<p><strong>Preferences:</strong> ' + escapeHTML(b.hotel) + ' &bull; ' + escapeHTML(b.transport) + '</p>' +
+    '<p><strong>Special Notes:</strong> ' + escapeHTML(b.notes) + '</p>' +
+    '<p style="font-size:16px;color:#c2410c;margin-top:6px"><strong>Total Amount: Rs. ' + b.total + '</strong></p></div>';
+
+  $("confirmBox").style.display = "block";
+  $("confirmBox").scrollIntoView({ behavior:"smooth" });
+});
+
+function bookAgain() {
+  $("bookForm").reset();
+  $("confirmBox").style.display = "none";
+  $("start").value = todayStr;
+  $("end").value = endStr;
+  update();
+  $("bookingArea").scrollIntoView({ behavior:"smooth" });
+}
+
+renderHistory();
+</script>
+</body>
+</html>

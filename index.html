@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WanderIndia - Travel & Booking</title>
+<style>
+
+/* Website basic design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main page */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header design */
+header {
+  background: #12355b;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Navigation menu */
+nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffb703;
+}
+
+/* Home page banner */
+.hero {
+  height: 85vh;
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+  url("images/ladakh.jpg") center/cover, #1d6fa5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+/* Button design */
+.btn {
+  background: #ffb703;
+  color: #222;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #fb8500;
+}
+
+/* Common section design */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #12355b;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #666;
+}
+
+/* Destination cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,.15);
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+  background: #9ec5d8;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.card-body h3 {
+  color: #12355b;
+  margin-bottom: 6px;
+}
+
+.tag {
+  display: inline-block;
+  background: #e0f0ff;
+  color: #12355b;
+  font-size: 13px;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin: 8px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #c2410c;
+  margin-bottom: 10px;
+}
+
+.card .btn {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+/* Light background */
+.bg {
+  background: #f2f7fb;
+}
+
+/* Travel tips */
+.tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tip {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.tip .icon {
+  font-size: 36px;
+}
+
+/* Photo gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #9ec5d8;
+  display: block;
+}
+
+/* Footer design */
+footer {
+  background: #12355b;
+  color: white;
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header><nav>
+  <div class="logo">&#9992; WanderIndia</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#places">Destinations</a></li>
+    <li><a href="#tips">Tips</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="booking.html">Book Now</a></li>
+  </ul>
+</nav></header>
+
+<div class="hero" id="home">
+  <h1>Explore the World, One Trip at a Time</h1>
+  <p>Budget-friendly travel for students and first-time travellers</p>
+  <a href="booking.html" class="btn">Book Your Trip</a>
+</div>
+
+<section id="places">
+  <h2>Popular Destinations</h2>
+  <p class="sub">Six places every student traveller should visit</p>
+  <div class="cards" id="cards"></div>
+</section>
+
+<div class="bg"><section id="tips">
+  <h2>Student Travel Tips</h2>
+  <p class="sub">Travel more, spend less</p>
+  <div class="tips">
+    <div class="tip"><div class="icon">&#128176;</div><h3>Set a Budget</h3><p>Decide your daily spending before you leave.</p></div>
+    <div class="tip"><div class="icon">&#127890;</div><h3>Pack Light</h3><p>One bag is easier to carry.</p></div>
+    <div class="tip"><div class="icon">&#128652;</div><h3>Use Local Transport</h3><p>Trains and buses save money.</p></div>
+    <div class="tip"><div class="icon">&#128081;</div><h3>Carry Student ID</h3><p>Many places give student discounts.</p></div>
+  </div>
+</section></div>
+
+<section id="gallery">
+  <h2>Photo Gallery</h2>
+  <p class="sub">Moments from the road</p>
+  <div class="gallery" id="gallery-box"></div>
+</section>
+
+
+<footer><p>&copy; 2026 WanderIndia | First-Year Project</p></footer>
+<script>
+// ---------- Data ----------
+var places = [
+  {id:"goa", name:"Goa", desc:"Golden beaches, old churches and great street food.", best:"Nov - Feb", price:1500},
+  {id:"manali", name:"Manali", desc:"Snow-capped mountains, river rafting and cosy cafes.", best:"Mar - Jun", price:1800},
+  {id:"jaipur", name:"Jaipur", desc:"The Pink City with forts, palaces and colourful bazaars.", best:"Oct - Mar", price:1400},
+  {id:"kerala", name:"Kerala", desc:"Peaceful backwaters, houseboats and tea gardens.", best:"Sep - Mar", price:2000},
+  {id:"ladakh", name:"Ladakh", desc:"High-altitude deserts, blue lakes and road trips.", best:"Jun - Sep", price:2500},
+  {id:"rishikesh", name:"Rishikesh", desc:"Yoga, adventure sports and evening aarti on the Ganga.", best:"Sep - Apr", price:1200}
+];
+
+function img(name, alt){
+  return '<img src="images/' + name + '.jpg" alt="' + alt + '" loading="lazy" onerror="fb(this)">';
+}
+
+function fb(el) {
+  el.onerror = null;
+  var t = (el.alt || "Travel").replace(/&/g, "and");
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">' +
+    '<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">' +
+    '<stop offset="0" stop-color="#12355b"/><stop offset="1" stop-color="#4da3d9"/>' +
+    '</linearGradient></defs>' +
+    '<rect width="600" height="420" fill="url(#g)"/>' +
+    '<circle cx="480" cy="90" r="40" fill="#ffd166"/>' +
+    '<polygon points="0,420 150,170 300,420" fill="#24527a"/>' +
+    '<polygon points="170,420 360,120 560,420" fill="#1d3d59"/>' +
+    '<rect y="360" width="600" height="60" fill="#0b2038"/>' +
+    '<text x="300" y="398" font-size="26" font-family="Arial" font-weight="bold" fill="#fff" text-anchor="middle">' +
+    t + '</text></svg>';
+  el.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+}
+
+// Render Destination Cards with direct link to booking.html?dest=<id>
+var cardsHTML = "";
+places.forEach(function(p){
+  cardsHTML += '<div class="card">' + img(p.id, p.name) +
+    '<div class="card-body"><h3>' + p.name + '</h3><p>' + p.desc + '</p>' +
+    '<span class="tag">Best: ' + p.best + '</span><div class="price">From Rs.' + p.price + ' / person / day</div>' +
+    '<a href="booking.html?dest=' + p.id + '" class="btn">Book This Trip</a></div></div>';
+});
+document.getElementById("cards").innerHTML = cardsHTML;
+
+// Render Photo Gallery (images/gallery1.jpg to gallery6.jpg)
+var gHTML = "";
+for (var i = 1; i <= 6; i++) {
+  gHTML += img("gallery" + i, "Travel Moment " + i);
+}
+document.getElementById("gallery-box").innerHTML = gHTML;
+</script>
+</body>
+</html>

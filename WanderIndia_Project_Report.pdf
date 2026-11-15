@@ -1,0 +1,294 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 5445 >>
+stream
+0.071 0.208 0.357 rg 0 765 595 77 re f
+1.0 0.718 0.012 rg 0 761 595 4 re f
+1 1 1 rg
+BT /F2 18 Tf 45 805 Td (WanderIndia - College Project Report) Tj ET
+BT /F1 10 Tf 45 785 Td (WanderIndia - Travel & Booking | First-Year College Project) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 45 730 Td (Project Report) Tj ET
+BT /F1 10 Tf 45 716 Td (Course / Track: First-Year Web Development Project) Tj ET
+BT /F1 10 Tf 45 702 Td (Technologies: HTML5, CSS3, Vanilla JavaScript \(ES6\), Browser Web APIs \(URLSearchParams,) Tj ET
+BT /F1 10 Tf 45 688 Td (localStorage, Print CSS\)) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 652 Td (1. Introduction & Objective) Tj ET
+0.82 0.86 0.91 rg 45 647 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 45 628 Td (WanderIndia is a lightweight, responsive, multi-page travel showcase and trip booking web) Tj ET
+BT /F1 10 Tf 45 614 Td (application designed for students and budget-conscious travellers.) Tj ET
+BT /F1 10 Tf 45 595 Td (The primary objectives of the project are:) Tj ET
+BT /F1 10 Tf 55 581 Td (* Present curated Indian travel destinations with transparent daily pricing and travel) Tj ET
+BT /F1 10 Tf 55 567 Td (  seasons.) Tj ET
+BT /F1 10 Tf 55 553 Td (* Provide an intuitive, multi-page booking workflow where selecting a destination on the) Tj ET
+BT /F1 10 Tf 55 539 Td (  home page pre-fills the booking form automatically.) Tj ET
+BT /F1 10 Tf 55 525 Td (* Calculate trip duration automatically from Start Date and Return Date selections and) Tj ET
+BT /F1 10 Tf 55 511 Td (  display a real-time itemized cost estimate.) Tj ET
+BT /F1 10 Tf 55 497 Td (* Generate an instant, official Travel Booking Voucher that users can save as a PDF or) Tj ET
+BT /F1 10 Tf 55 483 Td (  print without external libraries.) Tj ET
+BT /F1 10 Tf 55 469 Td (* Persist user bookings locally in the browser so booking history remains available) Tj ET
+BT /F1 10 Tf 55 455 Td (  across page reloads.) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 419 Td (2. System Architecture & File Structure) Tj ET
+0.82 0.86 0.91 rg 45 414 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 45 395 Td (The project is built with zero external dependencies or frameworks, ensuring fast loading) Tj ET
+BT /F1 10 Tf 45 381 Td (and full offline compatibility:) Tj ET
+0.96 0.97 0.98 rg 43 359.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 362 Td (WanderIndia/) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 348.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 350.5 Td ( index.html          \(329 lines\) -- Home page, hero banner, destinations, tips, & photo gallery) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 336.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 339.0 Td ( booking.html        \(395 lines\) -- Dedicated booking form, live cost estimator, voucher & ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 325.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 327.5 Td (history) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 313.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 316.0 Td ( images/             \(12 assets\) -- Local photography for destinations & gallery) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 302.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 304.5 Td (     goa.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 290.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 293.0 Td (     manali.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 279.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 281.5 Td (     jaipur.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 267.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 270.0 Td (     kerala.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 256.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 258.5 Td (     ladakh.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 244.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 247.0 Td (     rishikesh.jpg) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 233.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 235.5 Td (     gallery1.jpg ... gallery6.jpg) Tj ET
+0 0 0 rg
+0.071 0.208 0.357 rg
+BT /F2 11 Tf 45 205.0 Td (Multi-Page Navigation Flow) Tj ET
+0.82 0.86 0.91 rg 45 200.0 505 0.8 re f
+0 0 0 rg
+0.96 0.97 0.98 rg 43 178.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 181.0 Td (1. index.html \(Home & Destinations\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 167.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 169.5 Td (      |  Click 'Book This Trip' \(passes ?dest=goa\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 155.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 158.0 Td (      v) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 144.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 146.5 Td (2. booking.html \(Booking Form\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 132.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 135.0 Td (      |  URLSearchParams reads ?dest -> pre-selects destination & image) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 121.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 123.5 Td (      |  Pick Start & Return Dates + Hotel / Transport -> live Cost Estimate) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 109.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 112.0 Td (      v) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 98.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 100.5 Td (3. Submit Booking -> Saved to localStorage & displays Voucher) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 86.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 89.0 Td (      |  Click 'Download / Print Receipt \(PDF\)') Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 75.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 77.5 Td (      v) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 1 of 3) Tj ET
+0 0 0 rg
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 4915 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - College Project Report) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (4. Clean Printable PDF Voucher \(@media print\)) Tj ET
+0 0 0 rg
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 740.5 Td (3. Core Modules & Features Implemented) Tj ET
+0.82 0.86 0.91 rg 45 735.5 505 0.8 re f
+0 0 0 rg
+0.071 0.208 0.357 rg
+BT /F2 11 Tf 45 708.5 Td (3.1 Destination Showcase & Local Gallery \(`index.html`\)) Tj ET
+0.82 0.86 0.91 rg 45 703.5 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 55 689.5 Td (* Hero Banner: Full-width banner styled with images/ladakh.jpg and a primary call-to-) Tj ET
+BT /F1 10 Tf 55 675.5 Td (  action linking to booking.html.) Tj ET
+BT /F1 10 Tf 55 661.5 Td (* Dynamic Destination Cards: JavaScript renders 6 destinations \(Goa, Manali, Jaipur,) Tj ET
+BT /F1 10 Tf 55 647.5 Td (  Kerala, Ladakh, Rishikesh\) with base prices ranging from Rs. 1,200 to Rs. 2,500 per) Tj ET
+BT /F1 10 Tf 55 633.5 Td (  person/day and direct booking.html?dest=<id> links.) Tj ET
+BT /F1 10 Tf 55 619.5 Td (* Student Travel Tips & Photo Gallery: Includes 4 practical travel tips and a 6-photo) Tj ET
+BT /F1 10 Tf 55 605.5 Td (  gallery grid \(images/gallery1.jpg-gallery6.jpg\) with lazy loading \(loading="lazy"\).) Tj ET
+BT /F1 10 Tf 55 591.5 Td (* Resilient SVG Fallback: An onerror="fb\(this\)" handler renders a clean inline vector) Tj ET
+BT /F1 10 Tf 55 577.5 Td (  SVG placeholder if an image file is missing, preventing broken image icons.) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 11 Tf 45 550.5 Td (3.2 Dedicated Booking & Cost Estimator \(`booking.html`\)) Tj ET
+0.82 0.86 0.91 rg 45 545.5 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 55 531.5 Td (* Inter-Page State Passing: Uses new URLSearchParams\(window.location.search\).get\("dest"\)) Tj ET
+BT /F1 10 Tf 55 517.5 Td (  to read the chosen destination from the URL and pre-select it in the form.) Tj ET
+BT /F1 10 Tf 55 503.5 Td (* Destination Image Preview: Displays the selected destination's thumbnail \(#s-img\)) Tj ET
+BT /F1 10 Tf 55 489.5 Td (  inside the Cost Estimate summary panel.) Tj ET
+BT /F1 10 Tf 55 475.5 Td (* Smart Date Range Calculation:) Tj ET
+BT /F1 10 Tf 55 461.5 Td (* Blocks past dates on the Start Date field \(min = today\).) Tj ET
+BT /F1 10 Tf 55 447.5 Td (* Automatically updates the Return Date minimum to stay after the Start Date.) Tj ET
+BT /F1 10 Tf 55 433.5 Td (* Calculates trip duration dynamically without requiring a manual "Number of Days") Tj ET
+BT /F1 10 Tf 55 419.5 Td (  input:) Tj ET
+BT /F2 10 Tf 55 405.5 Td (Days = max\(1, round\(\(End Date - Start Date\) / \(1000 * 60 * 60 * 24\)\)\)) Tj ET
+BT /F1 10 Tf 55 391.5 Td (* Real-Time Pricing Engine \(calc\(\) & update\(\)\):) Tj ET
+BT /F1 10 Tf 55 377.5 Td (* Traveller Weighting: Adults count as 1.0 and children under 12 count as 0.5 \(50%) Tj ET
+BT /F1 10 Tf 55 363.5 Td (  discount\).) Tj ET
+BT /F1 10 Tf 55 349.5 Td (* Add-Ons: Supports Hotel upgrades \(Budget included, 3-Star +Rs. 800/person/day, 5-Star) Tj ET
+BT /F1 10 Tf 55 335.5 Td (  +Rs. 2,000/person/day\) and Transport options \(Train/Bus included, Private Cab +Rs.) Tj ET
+BT /F1 10 Tf 55 321.5 Td (  500/person, Self-Drive Rental +Rs. 1,200/person\).) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 11 Tf 45 294.5 Td (3.3 Confirmation Voucher, PDF Receipt & Persistence) Tj ET
+0.82 0.86 0.91 rg 45 289.5 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 55 275.5 Td (* Booking Confirmation Card \(#confirmBox\): Generates a unique reference ID \(WI-XXXX\),) Tj ET
+BT /F1 10 Tf 55 261.5 Td (  summarizes traveller details, dates, preferences, and total amount.) Tj ET
+BT /F1 10 Tf 55 247.5 Td (* Zero-Dependency PDF Receipt: Clicking "Download / Print Receipt \(PDF\)" invokes) Tj ET
+BT /F1 10 Tf 55 233.5 Td (  window.print\(\). A dedicated @media print stylesheet hides the header, navigation,) Tj ET
+BT /F1 10 Tf 55 219.5 Td (  form, history list, and footer so only the formatted voucher prints or saves as a) Tj ET
+BT /F1 10 Tf 55 205.5 Td (  clean PDF.) Tj ET
+BT /F1 10 Tf 55 191.5 Td (* Browser Persistence \(localStorage\): Saved bookings are serialized in localStorage) Tj ET
+BT /F1 10 Tf 55 177.5 Td (  under the wi_bookings key \(loadBookings\(\), saveBookings\(\), renderHistory\(\)\), allowing) Tj ET
+BT /F1 10 Tf 55 163.5 Td (  users to review or cancel reservations \(deleteBooking\(\)\) across refreshes.) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 127.5 Td (4. Security, Accessibility & Code Quality) Tj ET
+0.82 0.86 0.91 rg 45 122.5 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 55 103.5 Td (* XSS Prevention: All user-entered fields \(name, phone, email, special requests\) are) Tj ET
+BT /F1 10 Tf 55 89.5 Td (  sanitized via escapeHTML\(str\) before being inserted into the voucher or booking) Tj ET
+BT /F1 10 Tf 55 75.5 Td (  history DOM.) Tj ET
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 2 of 3) Tj ET
+0 0 0 rg
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 2741 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - College Project Report) Tj ET
+0 0 0 rg
+BT /F1 10 Tf 55 780 Td (* Accessibility \(WCAG Alignment\):) Tj ET
+BT /F1 10 Tf 55 766 Td (* Every form control has an explicit <label for="..."> association matching its input) Tj ET
+BT /F1 10 Tf 55 752 Td (  id.) Tj ET
+BT /F1 10 Tf 55 738 Td (* The Cost Estimate card uses aria-live="polite" so assistive technologies announce live) Tj ET
+BT /F1 10 Tf 55 724 Td (  price updates.) Tj ET
+BT /F1 10 Tf 55 710 Td (* Keyboard focus outlines \(outline: 2px solid #12355b\) are defined on all inputs and) Tj ET
+BT /F1 10 Tf 55 696 Td (  selects.) Tj ET
+BT /F1 10 Tf 55 682 Td (* Clean Refactoring: Splitting the booking system out of index.html reduced index.html) Tj ET
+BT /F1 10 Tf 55 668 Td (  from 499 lines to 329 lines \(-170 lines\) while keeping both files self-contained and) Tj ET
+BT /F1 10 Tf 55 654 Td (  easy to maintain.) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 618 Td (5. Verification Summary) Tj ET
+0.82 0.86 0.91 rg 45 613 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 55 594 Td (* JavaScript Syntax Verification: Both index.html and booking.html passed automated) Tj ET
+BT /F1 10 Tf 55 580 Td (  Node.js script syntax validation \(new Function\(...\)\) with zero syntax errors.) Tj ET
+BT /F1 10 Tf 55 566 Td (* Asset Mapping Check: Verified all 12 local image filenames in images/ match the paths) Tj ET
+BT /F1 10 Tf 55 552 Td (  generated in index.html and booking.html.) Tj ET
+BT /F1 10 Tf 55 538 Td (* Recommended Manual Checks: Open index.html in Chrome or Edge to test clicking a) Tj ET
+BT /F1 10 Tf 55 524 Td (  destination card, verifying date auto-calculation, submitting a booking, refreshing to) Tj ET
+BT /F1 10 Tf 55 510 Td (  verify localStorage persistence, and clicking Download / Print Receipt \(PDF\) to) Tj ET
+BT /F1 10 Tf 55 496 Td (  preview the PDF output.) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 460 Td (6. Conclusion & Future Enhancements) Tj ET
+0.82 0.86 0.91 rg 45 455 505 0.8 re f
+0 0 0 rg
+BT /F1 10 Tf 45 436 Td (WanderIndia demonstrates a clean, secure, and user-friendly front-end web application built) Tj ET
+BT /F1 10 Tf 45 422 Td (entirely with core web standards. Future enhancements can include:) Tj ET
+BT /F1 10 Tf 52 408 Td (1. A responsive mobile hamburger navigation drawer for screens under 768px.) Tj ET
+BT /F1 10 Tf 52 394 Td (2. Compressing high-resolution local .jpg assets for faster initial page load.) Tj ET
+BT /F1 10 Tf 52 380 Td (3. Connecting the booking submission handler to a backend REST API and database for) Tj ET
+BT /F1 10 Tf 52 366 Td (multi-device synchronization.) Tj ET
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 3 of 3) Tj ET
+0 0 0 rg
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000128 00000 n 
+0000000198 00000 n 
+0000000273 00000 n 
+0000000341 00000 n 
+0000000487 00000 n 
+0000005984 00000 n 
+0000006130 00000 n 
+0000011097 00000 n 
+0000011245 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+14039
+%%EOF

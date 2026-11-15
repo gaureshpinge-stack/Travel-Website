@@ -1,0 +1,3331 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R] /Count 13 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 6700 >>
+stream
+0.071 0.208 0.357 rg 0 765 595 77 re f
+1.0 0.718 0.012 rg 0 761 595 4 re f
+1 1 1 rg
+BT /F2 18 Tf 45 805 Td (WanderIndia - Complete Source Code) Tj ET
+BT /F1 10 Tf 45 785 Td (WanderIndia - Travel & Booking | First-Year College Project) Tj ET
+0 0 0 rg
+BT /F2 11 Tf 45 735 Td (Project Title: WanderIndia - Travel & Trip Booking Website) Tj ET
+BT /F1 10 Tf 45 721 Td (Technology Stack: HTML5, CSS3, Vanilla JavaScript \(ES6\)) Tj ET
+BT /F1 10 Tf 45 707 Td (Files Included: index.html \(329 lines\) & booking.html \(395 lines\)) Tj ET
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 677 Td (1. Home & Destination Showcase \(index.html\)) Tj ET
+0.82 0.86 0.91 rg 45 672 505 0.8 re f
+0 0 0 rg
+0.96 0.97 0.98 rg 43 655.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 658 Td (<!DOCTYPE html>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 644.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 646.5 Td (<html lang="en">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 632.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 635.0 Td (<head>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 621.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 623.5 Td (<meta charset="UTF-8">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 609.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 612.0 Td (<meta name="viewport" content="width=device-width, initial-scale=1">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 598.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 600.5 Td (<title>WanderIndia - Travel & Booking</title>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 586.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 589.0 Td (<style>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 575.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 577.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 563.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 566.0 Td (/* Website basic design */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 552.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 554.5 Td (* {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 540.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 543.0 Td (  margin: 0;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 529.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 531.5 Td (  padding: 0;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 517.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 520.0 Td (  box-sizing: border-box;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 506.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 508.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 494.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 497.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 483.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 485.5 Td (/* Main page */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 471.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 474.0 Td (body {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 460.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 462.5 Td (  font-family: Arial, sans-serif;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 448.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 451.0 Td (  color: #333;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 437.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 439.5 Td (  line-height: 1.6;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 425.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 428.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 414.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 416.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 402.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 405.0 Td (/* Header design */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 391.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 393.5 Td (header {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 379.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 382.0 Td (  background: #12355b;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 368.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 370.5 Td (  position: sticky;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 356.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 359.0 Td (  top: 0;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 345.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 347.5 Td (  z-index: 10;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 333.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 336.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 322.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 324.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 310.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 313.0 Td (/* Navigation menu */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 299.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 301.5 Td (nav {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 287.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 290.0 Td (  max-width: 1100px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 276.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 278.5 Td (  margin: auto;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 264.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 267.0 Td (  display: flex;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 253.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 255.5 Td (  justify-content: space-between;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 241.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 244.0 Td (  align-items: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 230.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 232.5 Td (  padding: 14px 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 218.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 221.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 207.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 209.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 195.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 198.0 Td (.logo {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 184.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 186.5 Td (  color: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 172.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 175.0 Td (  font-size: 24px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 161.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 163.5 Td (  font-weight: bold;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 149.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 152.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 138.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 140.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 126.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 129.0 Td (nav ul {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 115.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 117.5 Td (  list-style: none;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 103.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 106.0 Td (  display: flex;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 92.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 94.5 Td (  gap: 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 80.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 83.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 69.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 71.5 Td () Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 1 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 7475 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (nav a {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (  color: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (  text-decoration: none;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (nav a:hover {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (  color: #ffb703;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (/* Home page banner */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (.hero {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  height: 85vh;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (  background: linear-gradient\(rgba\(0,0,0,.45\), rgba\(0,0,0,.45\)\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (  url\("images/ladakh.jpg"\) center/cover, #1d6fa5;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (  display: flex;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (  flex-direction: column;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  justify-content: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  align-items: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  text-align: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (  color: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (  padding: 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (.hero h1 {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (  font-size: 46px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (  margin-bottom: 10px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (.hero p {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (  font-size: 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (  margin-bottom: 25px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (/* Button design */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (.btn {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (  background: #ffb703;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (  color: #222;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (  padding: 12px 28px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (  border-radius: 30px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (  text-decoration: none;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (  font-weight: bold;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (  border: none;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (  cursor: pointer;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (  font-size: 16px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (  display: inline-block;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (.btn:hover {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (  background: #fb8500;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (/* Common section design */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (section {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (  max-width: 1100px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (  margin: auto;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (  padding: 60px 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (h2 {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (  text-align: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (  font-size: 32px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (  margin-bottom: 10px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  color: #12355b;) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 2 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 7380 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (.sub {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (  text-align: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (  margin-bottom: 35px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (  color: #666;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (/* Destination cards */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (.cards {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  display: grid;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  grid-template-columns: repeat\(auto-fit, minmax\(300px, 1fr\)\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (  gap: 25px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (.card {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  background: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  border-radius: 12px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  overflow: hidden;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (  box-shadow: 0 4px 14px rgba\(0,0,0,.15\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (  transition: transform .3s;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (.card:hover {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (  transform: translateY\(-6px\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (.card img {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (  width: 100%;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (  height: 210px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (  object-fit: cover;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (  display: block;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (  background: #9ec5d8;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (.card-body {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (  padding: 18px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (.card-body h3 {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (  color: #12355b;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (  margin-bottom: 6px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (.tag {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (  display: inline-block;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (  background: #e0f0ff;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (  color: #12355b;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (  font-size: 13px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (  padding: 2px 10px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (  border-radius: 12px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (  margin: 8px 0;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (.price {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (  font-weight: bold;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (  color: #c2410c;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (  margin-bottom: 10px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (.card .btn {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (  padding: 8px 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  font-size: 14px;) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 3 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 7561 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (/* Light background */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (.bg {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (  background: #f2f7fb;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (/* Travel tips */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (.tips {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  display: grid;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  grid-template-columns: repeat\(auto-fit, minmax\(220px, 1fr\)\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  gap: 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (.tip {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (  background: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  padding: 22px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  border-radius: 10px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  text-align: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (  box-shadow: 0 2px 8px rgba\(0,0,0,.1\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (.tip .icon {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (  font-size: 36px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (/* Photo gallery */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (.gallery {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (  display: grid;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (  grid-template-columns: repeat\(auto-fit, minmax\(240px, 1fr\)\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (  gap: 12px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (.gallery img {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (  width: 100%;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (  height: 200px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (  object-fit: cover;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (  border-radius: 8px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (  background: #9ec5d8;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (  display: block;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (/* Footer design */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (footer {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (  background: #12355b;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (  color: white;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (  text-align: center;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (  padding: 24px 20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (  font-size: 14px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (</style>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (</head>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (<body>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (<header><nav>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (  <div class="logo">&#9992; WanderIndia</div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (  <ul>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (    <li><a href="#home">Home</a></li>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (    <li><a href="#places">Destinations</a></li>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (    <li><a href="#tips">Tips</a></li>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (    <li><a href="#gallery">Gallery</a></li>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (    <li><a href="booking.html">Book Now</a></li>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  </ul>) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 4 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 8888 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (</nav></header>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (<div class="hero" id="home">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (  <h1>Explore the World, One Trip at a Time</h1>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (  <p>Budget-friendly travel for students and first-time travellers</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (  <a href="booking.html" class="btn">Book Your Trip</a>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (</div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (<section id="places">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  <h2>Popular Destinations</h2>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  <p class="sub">Six places every student traveller should visit</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  <div class="cards" id="cards"></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (</section>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (<div class="bg"><section id="tips">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (  <h2>Student Travel Tips</h2>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  <p class="sub">Travel more, spend less</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  <div class="tips">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (    <div class="tip"><div class="icon">&#128176;</div><h3>Set a Budget</h3><p>Decide your daily) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td ( spending before you leave.</p></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (    <div class="tip"><div class="icon">&#127890;</div><h3>Pack Light</h3><p>One bag is easier ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (to carry.</p></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (    <div class="tip"><div class="icon">&#128652;</div><h3>Use Local Transport</h3><p>Trains and) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td ( buses save money.</p></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (    <div class="tip"><div class="icon">&#128081;</div><h3>Carry Student ID</h3><p>Many places ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (give student discounts.</p></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (  </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (</section></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (<section id="gallery">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (  <h2>Photo Gallery</h2>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (  <p class="sub">Moments from the road</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (  <div class="gallery" id="gallery-box"></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (</section>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (<footer><p>&copy; 2026 WanderIndia | First-Year Project</p></footer>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (<script>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (// ---------- Data ----------) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (var places = [) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (  {id:"goa", name:"Goa", desc:"Golden beaches, old churches and great street food.", best:"Nov ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (- Feb", price:1500},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (  {id:"manali", name:"Manali", desc:"Snow-capped mountains, river rafting and cosy cafes.", ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (best:"Mar - Jun", price:1800},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (  {id:"jaipur", name:"Jaipur", desc:"The Pink City with forts, palaces and colourful bazaars.",) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td ( best:"Oct - Mar", price:1400},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (  {id:"kerala", name:"Kerala", desc:"Peaceful backwaters, houseboats and tea gardens.", ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (best:"Sep - Mar", price:2000},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (  {id:"ladakh", name:"Ladakh", desc:"High-altitude deserts, blue lakes and road trips.", ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (best:"Jun - Sep", price:2500},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (  {id:"rishikesh", name:"Rishikesh", desc:"Yoga, adventure sports and evening aarti on the ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (Ganga.", best:"Sep - Apr", price:1200}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (];) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (function img\(name, alt\){) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (  return '<img src="images/' + name + '.jpg" alt="' + alt + '" loading="lazy" ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (onerror="fb\(this\)">';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (function fb\(el\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (  el.onerror = null;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (  var t = \(el.alt || "Travel"\).replace\(/&/g, "and"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">' +) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 5 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 8972 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (    '<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (    '<stop offset="0" stop-color="#12355b"/><stop offset="1" stop-color="#4da3d9"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (    '</linearGradient></defs>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (    '<rect width="600" height="420" fill="url\(#g\)"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (    '<circle cx="480" cy="90" r="40" fill="#ffd166"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (    '<polygon points="0,420 150,170 300,420" fill="#24527a"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (    '<polygon points="170,420 360,120 560,420" fill="#1d3d59"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (    '<rect y="360" width="600" height="60" fill="#0b2038"/>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (    '<text x="300" y="398" font-size="26" font-family="Arial" font-weight="bold" fill="#fff" ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (text-anchor="middle">' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (    t + '</text></svg>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  el.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent\(svg\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (// Render Destination Cards with direct link to booking.html?dest=<id>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (var cardsHTML = "";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (places.forEach\(function\(p\){) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  cardsHTML += '<div class="card">' + img\(p.id, p.name\) +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (    '<div class="card-body"><h3>' + p.name + '</h3><p>' + p.desc + '</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (    '<span class="tag">Best: ' + p.best + '</span><div class="price">From Rs.' + p.price + ' / ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (person / day</div>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (    '<a href="booking.html?dest=' + p.id + '" class="btn">Book This Trip</a></div></div>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (}\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (document.getElementById\("cards"\).innerHTML = cardsHTML;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (// Render Photo Gallery \(images/gallery1.jpg to gallery6.jpg\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (var gHTML = "";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (for \(var i = 1; i <= 6; i++\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (  gHTML += img\("gallery" + i, "Travel Moment " + i\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (document.getElementById\("gallery-box"\).innerHTML = gHTML;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (</script>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (</body>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (</html>) Tj ET
+0 0 0 rg
+0.071 0.208 0.357 rg
+BT /F2 13 Tf 45 375.0 Td (2. Dedicated Booking & Receipt Page \(booking.html\)) Tj ET
+0.82 0.86 0.91 rg 45 370.0 505 0.8 re f
+0 0 0 rg
+0.96 0.97 0.98 rg 43 353.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 356.0 Td (<!DOCTYPE html>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 342.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 344.5 Td (<html lang="en">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 330.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 333.0 Td (<head>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 319.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 321.5 Td (<meta charset="UTF-8">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 307.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 310.0 Td (<meta name="viewport" content="width=device-width, initial-scale=1">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 296.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 298.5 Td (<title>Book Your Trip - WanderIndia</title>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 284.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 287.0 Td (<style>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 273.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 275.5 Td (/* WanderIndia Brand Styles */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 261.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 264.0 Td (* { margin:0; padding:0; box-sizing:border-box; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 250.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 252.5 Td (body { font-family:Arial, sans-serif; color:#333; line-height:1.6; background:#f2f7fb; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 238.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 241.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 227.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 229.5 Td (/* Header & Nav */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 215.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 218.0 Td (header { background:#12355b; position:sticky; top:0; z-index:10; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 204.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 206.5 Td (nav { max-width:1100px; margin:auto; display:flex; justify-content:space-between; align-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 192.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 195.0 Td (items:center; padding:14px 20px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 181.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 183.5 Td (.logo { color:#fff; font-size:22px; font-weight:bold; text-decoration:none; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 169.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 172.0 Td (.nav-link { color:#fff; text-decoration:none; font-weight:bold; font-size:15px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 158.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 160.5 Td (.nav-link:hover { color:#ffb703; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 146.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 149.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 135.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 137.5 Td (/* Layout & Typography */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 123.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 126.0 Td (main { max-width:1100px; margin:30px auto; padding:0 20px 50px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 112.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 114.5 Td (h1 { color:#12355b; font-size:30px; margin-bottom:6px; text-align:center; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 100.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 103.0 Td (.sub { text-align:center; color:#666; margin-bottom:30px; font-size:15px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 89.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 91.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 77.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 80.0 Td (/* Booking Grid */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 66.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 68.5 Td (.booking-grid { display:grid; grid-template-columns:2fr 1fr; gap:25px; align-items:start; }) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 6 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 9520 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (.card { background:#fff; padding:25px; border-radius:12px; box-shadow:0 4px 14px ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (rgba\(0,0,0,.1\); }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (.row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (label { display:block; font-weight:bold; font-size:13px; margin:12px 0 4px; color:#12355b; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (input, select, textarea { width:100%; padding:10px; border:1px solid #bbb; border-radius:6px; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (font-size:14px; font-family:inherit; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (input:focus, select:focus, textarea:focus { outline:2px solid #12355b; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (/* Buttons */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (.btn { background:#ffb703; color:#222; padding:12px 24px; border-radius:30px; font-weight:bold;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td ( border:none; cursor:pointer; font-size:15px; display:inline-block; text-align:center; text-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (decoration:none; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (.btn:hover { background:#fb8500; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (.btn-submit { width:100%; margin-top:20px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (.btn-outline { background:transparent; border:2px solid #12355b; color:#12355b; padding:8px ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (18px; border-radius:20px; font-size:13px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (.btn-outline:hover { background:#12355b; color:#fff; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (/* Cost Summary */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (.summary h3 { color:#12355b; margin-bottom:12px; font-size:18px; border-bottom:2px solid ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (#e0f0ff; padding-bottom:8px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (.summary p { display:flex; justify-content:space-between; border-bottom:1px dashed #e2e8f0; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (padding:7px 0; font-size:14px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (.summary .total-row { font-size:18px; font-weight:bold; color:#c2410c; margin-top:10px; border-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (bottom:none; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (.note { font-size:12px; color:#777; margin-top:10px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (/* Confirmation Voucher */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (#confirmBox { display:none; background:#fff; border:2px solid #2e9e55; border-radius:12px; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (padding:25px; margin-bottom:30px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (.voucher-header { display:flex; justify-content:space-between; align-items:center; border-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (bottom:2px solid #2e9e55; padding-bottom:10px; margin-bottom:15px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (.voucher-tag { background:#e8f8ec; color:#1b7a3d; padding:4px 10px; border-radius:14px; font-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (weight:bold; font-size:13px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (.voucher-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:15px; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (font-size:14px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (.action-bar { display:flex; gap:12px; margin-top:20px; flex-wrap:wrap; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (/* Past Bookings */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (#historySection { margin-top:40px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (.history-item { background:#fff; padding:14px 18px; border-radius:8px; margin-bottom:10px; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (display:flex; justify-content:space-between; align-items:center; box-shadow:0 2px 6px ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (rgba\(0,0,0,.08\); font-size:14px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (.btn-del { color:#c2410c; background:none; border:none; cursor:pointer; font-size:13px; text-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (decoration:underline; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (/* Footer */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (footer { background:#12355b; color:#fff; text-align:center; padding:20px; font-size:14px; ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (margin-top:40px; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (/* Print Stylesheet for Receipt PDF Download */) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (@media print {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (  header, footer, .booking-grid, #historySection, .action-bar, .no-print { display:none ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (!important; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (  body { background:#fff; color:#000; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (  main { max-width:100%; margin:0; padding:0; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (  #confirmBox { display:block !important; border:2px solid #000; box-shadow:none; padding:20px;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td ( margin:0; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (  .voucher-header { border-bottom:2px solid #000; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (@media\(max-width:768px\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  .booking-grid { grid-template-columns:1fr; }) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 7 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 8570 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (  .row { grid-template-columns:1fr; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (  .voucher-grid { grid-template-columns:1fr; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (</style>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (</head>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (<body>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (<header><nav>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (  <a href="index.html" class="logo">&#9992; WanderIndia</a>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  <a href="index.html" class="nav-link">&larr; Back to Destinations</a>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (</nav></header>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (<main>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (  <h1>Book Your Adventure</h1>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (  <p class="sub">Pick your travel dates and options to view instant pricing and get your ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (confirmed voucher.</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  <!-- Confirmed Booking Voucher Card -->) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  <div id="confirmBox" role="region" aria-label="Booking Confirmation Voucher">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (    <div class="voucher-header">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (      <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (        <h2 style="color:#12355b;font-size:22px">&#9992; WanderIndia Travel Voucher</h2>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (        <span style="font-size:13px;color:#666">Official Booking & Receipt</span>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (      </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (      <span class="voucher-tag">&#10004; CONFIRMED</span>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (    </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (    <div id="voucherContent" class="voucher-grid"></div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (    <div class="action-bar">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (      <button onclick="window.print\(\)" class="btn">&#128438; Download / Print Receipt ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (\(PDF\)</button>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (      <button onclick="bookAgain\(\)" class="btn-outline">Book Another Trip</button>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (    </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (  </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (  <!-- Booking Form & Summary Grid -->) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (  <div class="booking-grid" id="bookingArea">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (    <div class="card">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (      <form id="bookForm">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (        <label for="dest">Destination *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (        <select id="dest" required></select>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (        <div class="row">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (            <label for="start">Start Date *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (            <input type="date" id="start" required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (            <label for="end">Return Date *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (            <input type="date" id="end" required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (        </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (        <div class="row">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (            <label for="adults">Adults \(Age 12+\) *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (            <input type="number" id="adults" min="1" max="20" value="1" required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (            <label for="kids">Children \(Under 12, 50% off\)</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (            <input type="number" id="kids" min="0" max="10" value="0">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (        </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td () Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 8 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 9226 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (        <div class="row">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (            <label for="hotel">Hotel Upgrade</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (            <select id="hotel">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (              <option value="0">Hostel / Budget \(Included\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (              <option value="800">3-Star Hotel \(+Rs.800/person/day\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (              <option value="2000">5-Star Luxury \(+Rs.2000/person/day\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (            </select>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (            <label for="transport">Transport Option</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (            <select id="transport">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (              <option value="0">Train / Bus \(Included\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (              <option value="500">Private Cab \(+Rs.500/person\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (              <option value="1200">Self-Drive Rental \(+Rs.1200/person\)</option>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (            </select>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (        </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (        <div class="row">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (            <label for="name">Full Name *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (            <input type="text" id="name" placeholder="John Doe" required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (          <div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (            <label for="phone">Phone Number *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (            <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="10-digit number" ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (          </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (        </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (        <label for="email">Email Address *</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (        <input type="email" id="email" placeholder="john@example.com" required>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (        <label for="notes">Special Requests \(Optional\)</label>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (        <textarea id="notes" rows="2" placeholder="Vegetarian meals, pickup near station, ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (etc."></textarea>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (        <button type="submit" class="btn btn-submit">Confirm Booking & Get Receipt</button>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (      </form>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (    </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (    <!-- Live Cost Estimate -->) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (    <div class="card summary" aria-live="polite">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (      <h3>Cost Estimate</h3>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (      <img id="s-img" src="" alt="Destination preview" style="width:100%;height:140px;object-) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (fit:cover;border-radius:8px;margin-bottom:12px;display:none">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (      <p><span>Destination:</span><strong id="s-dest">-</strong></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (      <p><span>Dates:</span><span id="s-dates">-</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (      <p><span>Duration:</span><span id="s-days">0 Days</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (      <p><span>Travellers:</span><span id="s-people">1 Adult</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (      <p><span>Base Package:</span><span id="s-pkg">Rs. 0</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (      <p><span>Hotel Upgrade:</span><span id="s-hotel">Rs. 0</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (      <p><span>Transport:</span><span id="s-trans">Rs. 0</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (      <p class="total-row"><span>Total:</span><span id="s-total">Rs. 0</span></p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (      <p class="note">&#9432; Children pay 50% of the package rate. All taxes included.</p>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (    </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (  </div>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (  <!-- Past Bookings from LocalStorage -->) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (  <section id="historySection">) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (    <h2 style="color:#12355b;font-size:22px;margin-bottom:15px">Your Saved Bookings</h2>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (    <div id="myBookings"></div>) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 9 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 8678 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (  </section>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (</main>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (<footer><p>&copy; 2026 WanderIndia | College Project</p></footer>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (<script>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (// ---------- Destination Catalog ----------) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (var places = [) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (  {id:"goa", name:"Goa", price:1500},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  {id:"manali", name:"Manali", price:1800},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  {id:"jaipur", name:"Jaipur", price:1400},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (  {id:"kerala", name:"Kerala", price:2000},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (  {id:"ladakh", name:"Ladakh", price:2500},) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (  {id:"rishikesh", name:"Rishikesh", price:1200}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (];) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (function $\(id\) { return document.getElementById\(id\); }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (// Defensive programming: sanitize HTML to prevent DOM XSS) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (function escapeHTML\(str\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (  return String\(str\).replace\(/[&<>"']/g, function\(m\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m];) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (  }\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (// Populate destination options) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (var opts = '<option value="">-- Select Destination --</option>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (places.forEach\(function\(p\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (  opts += '<option value="' + p.id + '">' + p.name + ' \(Rs.' + p.price + ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td ('/person/day\)</option>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (}\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td ($\("dest"\).innerHTML = opts;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (// Handle Destination Pre-selection via URL \(?dest=goa\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (var urlParam = new URLSearchParams\(window.location.search\).get\("dest"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (if \(urlParam && places.some\(function\(p\){ return p.id === urlParam; }\)\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (  $\("dest"\).value = urlParam;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (// Date setup: Block past dates and link start/end dates) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (var today = new Date\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (var yyyy = today.getFullYear\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (var mm = String\(today.getMonth\(\) + 1\).padStart\(2, "0"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (var dd = String\(today.getDate\(\)\).padStart\(2, "0"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (var todayStr = yyyy + "-" + mm + "-" + dd;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td ($\("start"\).min = todayStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td ($\("start"\).value = todayStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (// Default end date is 3 days from today) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (var defaultEnd = new Date\(today\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (defaultEnd.setDate\(defaultEnd.getDate\(\) + 3\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (var endStr = defaultEnd.getFullYear\(\) + "-" + String\(defaultEnd.getMonth\(\) + 1\).padStart\(2, ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td ("0"\) + "-" + String\(defaultEnd.getDate\(\)\).padStart\(2, "0"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td ($\("end"\).min = todayStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td ($\("end"\).value = endStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (// When Start Date changes, adjust minimum End Date) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td ($\("start"\).addEventListener\("change", function\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (  $\("end"\).min = this.value;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (  if \($\("end"\).value <= this.value\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (    var next = new Date\(this.value\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (    next.setDate\(next.getDate\(\) + 1\);) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 10 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 8813 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (    $\("end"\).value = next.toISOString\(\).split\("T"\)[0];) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (  }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (  update\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (}\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (// Dynamic Cost Calculation) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (function calc\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (  var p = places.filter\(function\(x\){ return x.id === $\("dest"\).value; }\)[0];) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (  var startVal = $\("start"\).value, endVal = $\("end"\).value;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  var days = 1;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  if \(startVal && endVal\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (    var diffMs = new Date\(endVal\) - new Date\(startVal\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (    days = Math.max\(1, Math.round\(diffMs / \(1000 * 60 * 60 * 24\)\)\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (  }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (  var adults = Math.max\(1, +$\("adults"\).value || 1\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (  var kids = Math.max\(0, +$\("kids"\).value || 0\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  var travellers = adults + kids * 0.5;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  var pkg = p ? p.price * days * travellers : 0;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  var hotel = +$\("hotel"\).value * days * travellers;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (  var trans = +$\("transport"\).value * travellers;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (  return { p:p, start:startVal, end:endVal, days:days, adults:adults, kids:kids, pkg:pkg, ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (hotel:hotel, trans:trans, total:pkg+hotel+trans };) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (function update\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (  var c = calc\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (  if \(c.p\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td (    $\("s-img"\).src = "images/" + c.p.id + ".jpg";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (    $\("s-img"\).style.display = "block";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (  } else {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (    $\("s-img"\).style.display = "none";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (  }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (  $\("s-dest"\).textContent = c.p ? c.p.name : "--";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (  $\("s-dates"\).textContent = \(c.start && c.end\) ? \(c.start + " to " + c.end\) : "--";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (  $\("s-days"\).textContent = c.days + \(c.days === 1 ? " Day" : " Days"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (  $\("s-people"\).textContent = c.adults + " Adult\(s\), " + c.kids + " Child\(ren\)";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (  $\("s-pkg"\).textContent = "Rs. " + Math.round\(c.pkg\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (  $\("s-hotel"\).textContent = "Rs. " + Math.round\(c.hotel\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (  $\("s-trans"\).textContent = "Rs. " + Math.round\(c.trans\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (  $\("s-total"\).textContent = "Rs. " + Math.round\(c.total\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (["dest","start","end","adults","kids","hotel","transport"].forEach\(function\(id\){) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (  $\(id\).addEventListener\("input", update\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (}\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td (update\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (// LocalStorage Persistence for Bookings) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (function loadBookings\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (  try { return JSON.parse\(localStorage.getItem\("wi_bookings"\)\) || []; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (  catch\(e\) { return []; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (function saveBookings\(arr\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (  localStorage.setItem\("wi_bookings", JSON.stringify\(arr\)\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (function renderHistory\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td (  var list = loadBookings\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (  var box = $\("myBookings"\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (  if \(!list.length\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (    box.innerHTML = '<p style="color:#777;font-size:14px">No bookings saved yet.</p>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (    return;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td (  }) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 11 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 8752 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (  var html = "";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (  list.forEach\(function\(b, idx\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (    html += '<div class="history-item">' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (      '<div><strong>' + escapeHTML\(b.id\) + '</strong> &bull; ' + escapeHTML\(b.dest\) +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (      ' &bull; ' + escapeHTML\(b.start\) + ' to ' + escapeHTML\(b.end\) + ' \(' + b.days + ' days\)' ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (+) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (      ' &bull; <strong>Rs.' + b.total + '</strong></div>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td (      '<button class="btn-del" onclick="deleteBooking\(' + idx + '\)">Cancel</button>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (    '</div>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  }\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (  box.innerHTML = html;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (function deleteBooking\(idx\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (  if \(confirm\("Cancel this booking?"\)\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (    var list = loadBookings\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (    list.splice\(idx, 1\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (    saveBookings\(list\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (    renderHistory\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (  }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (// Form Submission -> Render Receipt Voucher) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td ($\("bookForm"\).addEventListener\("submit", function\(e\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (  e.preventDefault\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 490.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 492.5 Td (  var c = calc\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 478.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 481.0 Td (  if \(!c.p\) { alert\("Please select a destination."\); $\("dest"\).focus\(\); return; }) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 467.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 469.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 455.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 458.0 Td (  var b = {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 444.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 446.5 Td (    id: "WI-" + Math.floor\(1000 + Math.random\(\) * 9000\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 432.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 435.0 Td (    name: $\("name"\).value.trim\(\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 421.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 423.5 Td (    phone: $\("phone"\).value.trim\(\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 409.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 412.0 Td (    email: $\("email"\).value.trim\(\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 398.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 400.5 Td (    dest: c.p.name,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 386.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 389.0 Td (    start: c.start,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 375.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 377.5 Td (    end: c.end,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 363.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 366.0 Td (    days: c.days,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 352.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 354.5 Td (    adults: c.adults,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 340.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 343.0 Td (    kids: c.kids,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 329.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 331.5 Td (    hotel: $\("hotel"\).options[$\("hotel"\).selectedIndex].text,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 317.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 320.0 Td (    transport: $\("transport"\).options[$\("transport"\).selectedIndex].text,) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 306.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 308.5 Td (    notes: $\("notes"\).value.trim\(\) || "None",) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 294.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 297.0 Td (    total: Math.round\(c.total\),) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 283.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 285.5 Td (    date: new Date\(\).toLocaleDateString\(\)) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 271.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 274.0 Td (  };) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 260.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 262.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 248.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 251.0 Td (  // Save to persistent storage) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 237.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 239.5 Td (  var list = loadBookings\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 225.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 228.0 Td (  list.unshift\(b\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 214.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 216.5 Td (  saveBookings\(list\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 202.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 205.0 Td (  renderHistory\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 191.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 193.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 179.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 182.0 Td (  // Populate Printable Voucher Card) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 168.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 170.5 Td (  $\("voucherContent"\).innerHTML =) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 156.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 159.0 Td (    '<div><p><strong>Booking ID:</strong> ' + escapeHTML\(b.id\) + '</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 145.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 147.5 Td (    '<p><strong>Traveller Name:</strong> ' + escapeHTML\(b.name\) + '</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 133.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 136.0 Td (    '<p><strong>Contact:</strong> ' + escapeHTML\(b.phone\) + ' | ' + escapeHTML\(b.email\) + ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 122.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 124.5 Td ('</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 110.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 113.0 Td (    '<p><strong>Booking Date:</strong> ' + escapeHTML\(b.date\) + '</p></div>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 99.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 101.5 Td (    '<div><p><strong>Destination:</strong> ' + escapeHTML\(b.dest\) + ' \(' + b.days + ' ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 87.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 90.0 Td (Days\)</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 76.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 78.5 Td (    '<p><strong>Travel Dates:</strong> ' + escapeHTML\(b.start\) + ' to ' + escapeHTML\(b.end\) + ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 64.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 67.0 Td ('</p>' +) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 12 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 3517 >>
+stream
+0.071 0.208 0.357 rg 45 805 505 1.5 re f
+0.4 0.4 0.4 rg
+BT /F1 8 Tf 45 812 Td (WanderIndia - Complete Source Code) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 777.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 780 Td (    '<p><strong>Party Size:</strong> ' + b.adults + ' Adult\(s\), ' + b.kids + ' Child\(ren\)</p>' ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 766.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 768.5 Td (+) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 754.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 757.0 Td (    '<p><strong>Preferences:</strong> ' + escapeHTML\(b.hotel\) + ' &bull; ' + ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 743.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 745.5 Td (escapeHTML\(b.transport\) + '</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 731.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 734.0 Td (    '<p><strong>Special Notes:</strong> ' + escapeHTML\(b.notes\) + '</p>' +) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 720.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 722.5 Td (    '<p style="font-size:16px;color:#c2410c;margin-top:6px"><strong>Total Amount: Rs. ' + ) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 708.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 711.0 Td (b.total + '</strong></p></div>';) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 697.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 699.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 685.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 688.0 Td (  $\("confirmBox"\).style.display = "block";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 674.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 676.5 Td (  $\("confirmBox"\).scrollIntoView\({ behavior:"smooth" }\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 662.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 665.0 Td (}\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 651.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 653.5 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 639.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 642.0 Td (function bookAgain\(\) {) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 628.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 630.5 Td (  $\("bookForm"\).reset\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 616.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 619.0 Td (  $\("confirmBox"\).style.display = "none";) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 605.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 607.5 Td (  $\("start"\).value = todayStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 593.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 596.0 Td (  $\("end"\).value = endStr;) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 582.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 584.5 Td (  update\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 570.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 573.0 Td (  $\("bookingArea"\).scrollIntoView\({ behavior:"smooth" }\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 559.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 561.5 Td (}) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 547.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 550.0 Td () Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 536.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 538.5 Td (renderHistory\(\);) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 524.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 527.0 Td (</script>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 513.0 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 515.5 Td (</body>) Tj ET
+0 0 0 rg
+0.96 0.97 0.98 rg 43 501.5 509 11.5 re f
+0.12 0.16 0.23 rg
+BT /F3 8 Tf 48 504.0 Td (</html>) Tj ET
+0 0 0 rg
+0.45 0.45 0.45 rg
+BT /F1 8.5 Tf 265 28 Td (Page 13 of 13) Tj ET
+0 0 0 rg
+endstream
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000199 00000 n 
+0000000269 00000 n 
+0000000344 00000 n 
+0000000412 00000 n 
+0000000558 00000 n 
+0000007310 00000 n 
+0000007456 00000 n 
+0000014983 00000 n 
+0000015131 00000 n 
+0000022564 00000 n 
+0000022712 00000 n 
+0000030326 00000 n 
+0000030474 00000 n 
+0000039415 00000 n 
+0000039563 00000 n 
+0000048588 00000 n 
+0000048736 00000 n 
+0000058309 00000 n 
+0000058457 00000 n 
+0000067080 00000 n 
+0000067228 00000 n 
+0000076507 00000 n 
+0000076655 00000 n 
+0000085386 00000 n 
+0000085534 00000 n 
+0000094400 00000 n 
+0000094548 00000 n 
+0000103353 00000 n 
+0000103501 00000 n 
+trailer
+<< /Size 32 /Root 1 0 R >>
+startxref
+107071
+%%EOF
